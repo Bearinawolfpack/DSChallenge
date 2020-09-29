@@ -20,6 +20,10 @@
 
 - Link to [Frontend](https://github.com/Bearinawolfpack/DSChallengeFrontend)
 
+- [Generate](https://medium.com/@kevinyckim33/rails-generators-cli-cheatsheet-711295e7a1ed)
+
+- [Controller](https://www.tutorialspoint.com/ruby-on-rails/rails-controllers.htm)
+
 ## Notes
 
 - Should look like ![beyonce gif](bey-slay.gif)
