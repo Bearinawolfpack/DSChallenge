@@ -28,4 +28,4 @@ FavoriteContainer.propTypes = {
   favorites: PropTypes.shape({
     map: PropTypes.func.isRequired,
   }).isRequired,
-}
+};
