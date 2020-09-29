@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import GifCard from '../ListAll/GifCard';
 
@@ -22,4 +23,9 @@ class FavoriteContainer extends React.PureComponent {
 
 export default FavoriteContainer;
 
-
+FavoriteContainer.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+  favorites: PropTypes.shape({
+    map: PropTypes.func.isRequired,
+  }).isRequired,
+}
