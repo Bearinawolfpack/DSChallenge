@@ -24,6 +24,8 @@
 
 - [Controller](https://www.tutorialspoint.com/ruby-on-rails/rails-controllers.htm)
 
+- [propTypes](https://www.npmjs.com/package/prop-types)
+
 ## Notes
 
 - Should look like ![beyonce gif](bey-slay.gif)
