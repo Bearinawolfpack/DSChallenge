@@ -16,4 +16,10 @@
 
 - [Based](https://github.com/Bearinawolfpack/dsYouDied)
 
+- Link to [Backend](https://github.com/Bearinawolfpack/DSChallengeBackend)
+
+- Link to [Frontend](https://github.com/Bearinawolfpack/DSChallengeFrontend)
+
 ## Notes
+
+- Should look like ![beyonce gif](bey-slay.gif)
