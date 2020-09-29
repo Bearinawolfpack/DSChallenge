@@ -24,4 +24,4 @@ GifCard.propTypes = {
     img: PropTypes.string.isRequired,
     id: PropTypes.number.isRequired,
   }).isRequired,
-}
+};
