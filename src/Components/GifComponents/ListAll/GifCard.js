@@ -17,11 +17,11 @@ const GifCard = (props) => (
 
 export default GifCard;
 
-GifCard.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
-  gifObj: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    img: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
-  }).isRequired,
-};
+// GifCard.propTypes = {
+//   clickHandler: PropTypes.func.isRequired,
+//   gifObj: PropTypes.shape({
+//     name: PropTypes.string.isRequired,
+//     img: PropTypes.string.isRequired,
+//     id: PropTypes.number.isRequired,
+//   }).isRequired,
+// };

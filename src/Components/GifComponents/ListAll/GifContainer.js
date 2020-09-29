@@ -22,9 +22,9 @@ const GifContainer = (props) => {
 
 export default GifContainer;
 
-GifContainer.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
-  allGifs: PropTypes.shape({
-    map: PropTypes.func.isRequired,
-  }).isRequired,
-};
+// GifContainer.propTypes = {
+//   clickHandler: PropTypes.func.isRequired,
+//   allGifs: PropTypes.shape({
+//     map: PropTypes.func.isRequired,
+//   }).isRequired,
+// };

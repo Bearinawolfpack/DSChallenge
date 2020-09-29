@@ -23,9 +23,9 @@ class FavoriteContainer extends React.PureComponent {
 
 export default FavoriteContainer;
 
-FavoriteContainer.propTypes = {
-  clickHandler: PropTypes.func.isRequired,
-  favorites: PropTypes.shape({
-    map: PropTypes.func.isRequired,
-  }).isRequired,
-};
+// FavoriteContainer.propTypes = {
+//   clickHandler: PropTypes.func.isRequired,
+//   favorites: PropTypes.shape({
+//     map: PropTypes.func.isRequired,
+//   }).isRequired,
+// };

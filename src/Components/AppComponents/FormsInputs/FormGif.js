@@ -42,6 +42,6 @@ class FormGif extends React.Component {
 
 export default FormGif;
 
-FormGif.propTypes = {
-  submitHandler: PropTypes.func.isRequired,
-};
+// FormGif.propTypes = {
+//   submitHandler: PropTypes.func.isRequired,
+// };
