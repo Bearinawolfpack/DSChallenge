@@ -14,11 +14,11 @@ const SearchGif = (props) => (
 
 export default SearchGif;
 
-// SearchGif.defaultProps = {
-//   searchValue: '',
-// };
+SearchGif.defaultProps = {
+  searchValue: '',
+};
 
-// SearchGif.propTypes = {
-//   searchHandler: PropTypes.func.isRequired,
-//   searchValue: PropTypes.string,
-// };
+SearchGif.propTypes = {
+  searchHandler: PropTypes.func.isRequired,
+  searchValue: PropTypes.string,
+};
