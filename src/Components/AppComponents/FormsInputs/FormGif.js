@@ -8,7 +8,7 @@ class FormGif extends React.Component {
     favorite: false,
   };
 
-  changHandler = (event) => {
+  changeHandler = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   };
 
@@ -31,6 +31,7 @@ class FormGif extends React.Component {
           type="text"
           value={this.state.img}
           placeholder="Enter Image URL"
+          // onChange={this.changeHandler}
           onChange={this.changeHandler}
           name="img"
         />

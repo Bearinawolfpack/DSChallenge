@@ -9,7 +9,7 @@ const GifCard = (props) => (
     <img
       src={props.gifObj.img}
       alt=""
-      value={props.gifObj.id}
+      key={props.gifObj.id}
       onClick={() => props.clickHandler(props.gifObj.id)}
     />
   </div>

@@ -32,8 +32,9 @@ class App extends React.PureComponent {
   };
 
   submitHandler = (obj) => {
-    const submitArray = [obj, ...this.state.stateGifs];
-    this.setState({ stateGifs: submitArray });
+    this.setState((prevState) => ({
+      stateGifs: [obj, ...prevState.stateGifs],
+    }));
   };
 
   searchHandler = (event) => {
@@ -51,22 +52,18 @@ class App extends React.PureComponent {
     const clickArray = [...this.state.stateGifs];
     const clickedImg = clickArray.find((obj) => obj.id === id);
     clickedImg.favorite = !clickedImg.favorite;
-    this.setState({ stateGifs: clickArray });
+    this.addToFavorites(clickArray);
   };
 
   favoritesList = () => {
-    return this.state.stateGifs.filter(
-      (obj) =>
-        obj.favorite === true &&
-        obj.name.toLowerCase().includes(this.state.searchValue.toLowerCase()),
-    );
+    return this.state.stateGifs.filter((obj) => obj.favorite === true);
   };
 
   render() {
     return (
       <div className="container">
         <GifContainer
-          allGifs={this.state.stateGifs}
+          allGifs={this.searchResults()}
           clickHandler={this.clickHandler}
         />
         <FavoriteContainer
