@@ -11,7 +11,6 @@ const GifContainer = (props) => {
       clickHandler={props.clickHandler}
     />
   ));
-
   return (
     <div className="index">
       <h1>Index</h1>

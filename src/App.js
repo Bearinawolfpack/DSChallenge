@@ -32,9 +32,25 @@ class App extends React.PureComponent {
   };
 
   submitHandler = (obj) => {
-    this.setState((prevState) => ({
-      stateGifs: [obj, ...prevState.stateGifs],
-    }));
+    fetch('http://localhost:3000/gifs', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'application/json',
+      },
+      body: JSON.stringify({
+        img: obj.img,
+        name: obj.name,
+        favorite: false,
+        user_id: 5,
+      }),
+    }).then(
+      (resp) => console.log(resp),
+      this.setState((prevState) => ({
+        stateGifs: [...prevState.stateGifs, obj],
+      })),
+      this.componentDidMount(),
+    );
   };
 
   searchHandler = (event) => {

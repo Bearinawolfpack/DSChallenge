@@ -31,7 +31,6 @@ class FormGif extends React.Component {
           type="text"
           value={this.state.img}
           placeholder="Enter Image URL"
-          // onChange={this.changeHandler}
           onChange={this.changeHandler}
           name="img"
         />
