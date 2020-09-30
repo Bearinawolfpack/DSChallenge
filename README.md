@@ -26,6 +26,8 @@
 
 - [propTypes](https://www.npmjs.com/package/prop-types)
 
+- propTypes for [AoO](https://stackoverflow.com/questions/54155412/error-map-in-missing-props-reactjs-proptypes)
+
 ## Notes
 
 - Should look like ![beyonce gif](bey-slay.gif)
